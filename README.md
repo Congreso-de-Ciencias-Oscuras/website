@@ -1,38 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Congreso de Ciencias Oscuras
 
-## Getting Started
+Página oficial del congreso de Ciencias Oscuras
 
-First, run the development server:
+## Contribuir
 
-```bash
+### 1. Tener una copia del repositorio localmente
+
+```
+git clone https://github.com/Congreso-de-Ciencias-Oscuras/website.git
+```
+### 2.  Ingresar en el repositorio 
+```
+cd website
+```
+### 3. Instalar las dependencias (npm es requerido)
+```
+npm install
+```
+### 4. Crear un archivo .env en la ruta del repositorio con las claves que les serán proporcionadas
+### 5. Para ejecutar el proyecto localmente
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Recordar que el flow para contribuir en el proyecto.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Crear un issue explicando detalladamente los cambios al código que se necesitan hacer.
+2. Asignar el issue
+3. Crear una rama para trabajar en dicho issue
+4. Hacer los cambios pertinentes en la rama creada
+5. Hacer los commits a la rama
+6. Crear una pull request para hacer merge con la rama padre
+7. En caso de ser aceptada, borrar la rama del issue
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Recursos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [React](https://reactjs.dev/)
+- [Mozzila MDN](https://developer.mozilla.org/es/)
+- [Tutorial_Git](https://www.freecodecamp.org/news/how-to-use-git-and-github-in-a-team-like-a-pro/)
+- [Tutorial_FIrebase](https://www.youtube.com/watch?v=fgdpvwEWJ9M)
