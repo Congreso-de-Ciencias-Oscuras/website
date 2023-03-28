@@ -1,0 +1,90 @@
+.navbar {
+  background-image: url("../../public/bck1.png");
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.navbarTitle {
+  font-family: 'Berkshire Swash', cursive;
+  padding: 0.2rem;
+  color: #b5b5b5;
+  margin-left: 1rem;
+  font-size: 26px;
+}
+
+.menuToggle {
+  opacity: 0;
+}
+.menuToggle:checked + .menuBtn > span {
+  transform: rotate(45deg);
+}
+.menuToggle:checked + .menuBtn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+.menuToggle:checked + .menuBtn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+.menuToggle:checked ~ .menuBox {
+  right: 0 !important;
+}
+.menuBtn {
+  position: fixed;
+  top: 32px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menuBtn > span,
+.menuBtn > span::before,
+.menuBtn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #b5b5b5;
+  transition-duration: .25s;
+}
+.menuBtn > span::before {
+  content: '';
+  top: -8px;
+}
+.menuBtn > span::after {
+  content: '';
+  top: 8px;
+}
+.menuBox {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #3e3250;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+  color: #9991ad;
+}
+.menuItem {
+  display: block;
+  padding: 12px 24px;
+  color: #9991ad;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menuItem:hover {
+  background-color: #CFD8DC;
+}
